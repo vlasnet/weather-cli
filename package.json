@@ -1,0 +1,17 @@
+{
+  "name": "weather_cli",
+  "version": "1.0.0",
+  "description": "CLI for Weather Forecast",
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "license": "ISC",
+  "author": "Serhii Vlasiuk",
+  "type": "commonjs",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
