@@ -1,2 +1,6 @@
 /dist
 /idea
+/.idea/.gitignore
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/Weather-CLI.iml
