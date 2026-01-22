@@ -8,14 +8,22 @@
   ],
   "license": "ISC",
   "author": "Serhii Vlasiuk",
-  "type": "commonjs",
-  "main": "index.js",
-  "bin": "index.js",
+  "type": "module",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node weather.js"
   },
   "dependencies": {
-    "axios": "^1.13.2"
+    "axios": "^1.13.2",
+    "chalk": "^5.6.2",
+    "dedent-js": "^1.0.1",
+    "yargs-parser": "^22.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.10"
   }
 }
